@@ -53,7 +53,6 @@ const Weather = () => {
       className={`relative flex flex-col items-center justify-start min-h-screen 
       bg-gradient-to-r ${getBackgroundClass()} text-white p-4 transition-all duration-700 overflow-x-hidden`}
     >
-      {/* Animated Cloud Background */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
         <div className="cloud -left-40 top-10" />
         <div className="cloud left-20 top-32" />
@@ -70,7 +69,6 @@ const Weather = () => {
         🌤 Weather App
       </motion.h1>
 
-      {/* Search Form */}
       <form
         onSubmit={handleInput}
         className="mb-4 flex flex-col sm:flex-row gap-2 w-full max-w-md z-10 px-2"
@@ -97,9 +95,8 @@ const Weather = () => {
         </motion.button>
       </form>
 
-      {/* Main Content */}
       <div className="flex flex-col md:flex-row justify-center items-start gap-4 w-full max-w-6xl flex-1 overflow-hidden">
-        {/* Current Weather */}
+
         {weather && (
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -180,7 +177,6 @@ const Weather = () => {
         )}
       </div>
 
-      {/* Cloud Styles */}
       <style jsx>{`
         .cloud {
           position: absolute;

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "4ed5af6cd0be464d92e90913252308";  
+const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
 export const Getapi = (city) => {
   return axios.get(
