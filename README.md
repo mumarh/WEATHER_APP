@@ -1,12 +1,84 @@
-# React + Vite
+# WeatherApp 🌦️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*WeatherApp* is a responsive React web application that allows users to check the current weather and forecast for any city. It features a clean UI using Tailwind CSS, smooth navigation, and dynamic weather updates powered by APIs.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Features](#features)
+- [Technologies](#technologies)
+- [Demo](#demo)
+- [Folder Structure](#folder-structure)
+- [Author](#author)
+- [License](#license)
+- [Support](#support)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- Responsive design for mobile and desktop
+- Search weather by city
+- Display current temperature, humidity, wind speed, and weather condition
+- Weather forecast for upcoming days
+- Dynamic background based on weather condition
+- Smooth scroll and interactive UI
+- Footer with social media links and contact info
+- Error / 404 page for invalid routes
+
+---
+
+## Technologies
+- *Frontend:* React, React Router DOM  
+- *Styling:* Tailwind CSS  
+- *Icons:* React Icons  
+- *API:* OpenWeatherMap API  
+- *Build Tool:* Vite  
+- *JavaScript:* ES6+  
+
+---
+
+## Demo
+[🌐 Demo Link](http://weather-app-umarh.netlify.app)
+
+---
+
+## Folder Structure
+
+| FILE NAME / FOLDER        | Description                             |
+| ------------------------- | ----------------------------------------|
+| public/                   | Static files                            |
+| src/                      | Main source folder                      |
+| ├─ api/                   | API data and functions                  |
+| │  └─ Api.jsx             | Functions to fetch weather data         |
+| ├─ components/            | All React components                    |
+| │  ├─ Weather.jsx         | Weather Component                       |
+| ├─ pages/                 | Page components                         |
+| │  ├─ Loading.jsx         | Loading Page                            |
+| ├─ App.jsx                | Main React App file                     |
+| └─ main.jsx               | Entry point for React                   |
+| package.json              | Project metadata and dependencies       |
+| tailwind.config.js        | Tailwind CSS configuration              |
+| vite.config.js            | Vite configuration                      |
+
+---
+
+### Author
+*Muhammad Umar Hassan*  
+Frontend Developer | React Enthusiast | UI/UX Lover  
+
+📸 Instagram: [@m_umar_hassan](https://www.instagram.com/m_umar_hassan)  
+💼 LinkedIn: [M. Umarh](https://www.linkedin.com/in/m-umarh)  
+📘 Facebook: [Muhammad Umar Hassan](https://www.facebook.com/muhammadumar.hassan.581)  
+
+---
+
+### License
+This project is licensed under the *MIT License*.  
+You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the project, under the following conditions:  
+- Include the original copyright and license notice in all copies or substantial portions of the software.
+
+---
+
+### Support
+For any issues, suggestions, or collaborations, you can reach out to *Muhammad Umar Hassan* via the social media links above.  
+Feel free to open issues on GitHub or contact directly via email or social media.
